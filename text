@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	int   a,b,c,max;
+	cin>>a>>b>>c;         //从键盘输入三个整数
+	if (a>b)   max=a;     //max=a>b?a:b;
+	else max=b;
+	if (max<c) max=c; 
+	cout<<"("<<a<<","<<b<<","<<c<<")中最大的整数为："<<max<<endl;
+	 
+	return 0; 
+}
